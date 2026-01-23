@@ -1,32 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: aysdurma <aysdurma@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/01/12 21:32:23 by aysdurma          #+#    #+#             */
-/*   Updated: 2026/01/22 14:52:11 by aysdurma         ###   ########.fr       */
+/*   Created: 2026/01/22 15:19:44 by aysdurma          #+#    #+#             */
+/*   Updated: 2026/01/22 15:34:05 by aysdurma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *dst, const char *src, size_t size)
+char	*ft_strchr(const char *s, int c)
 {
-	size_t	i;
+	unsigned char	ch;
 
-	i = 0;
-	if (size > 0)
+	ch = (unsigned char)c;
+	while (*s)
 	{
-		while (src[i] && i < (size - 1))
-		{
-			dst[i] = src[i];
-			i++;
-		}
-		dst[i] = '\0';
+		if ((unsigned char)*s == ch)
+			return ((char *)s);
+		s++;
 	}
-	while (src[i])
-		i++;
-	return (i);
+	if (ch == '\0')
+		return ((char *)s);
+	return (NULL);
 }
