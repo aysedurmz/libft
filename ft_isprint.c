@@ -6,13 +6,13 @@
 /*   By: aysdurma <aysdurma@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/11 23:45:13 by aysdurma          #+#    #+#             */
-/*   Updated: 2026/01/11 23:47:47 by aysdurma         ###   ########.fr       */
+/*   Updated: 2026/01/25 22:15:36 by aysdurma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	isprint(int c)
+int	ft_isprint(int c)
 {
 	return (c >= 32 && c <= 126);
 }
