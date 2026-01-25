@@ -6,7 +6,7 @@
 /*   By: aysdurma <aysdurma@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/11 21:37:25 by aysdurma          #+#    #+#             */
-/*   Updated: 2026/01/11 21:42:41 by aysdurma         ###   ########.fr       */
+/*   Updated: 2026/01/25 22:45:41 by aysdurma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	}
 	j = 0;
 	while (s2[j])
+	{
 		buffer[i++] = s2[j++];
+	}
 	buffer[i] = '\0';
 	return (buffer);
 }
