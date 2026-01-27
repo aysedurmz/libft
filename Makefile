@@ -6,7 +6,7 @@
 #    By: aysdurma <aysdurma@student.42kocaeli.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/26 02:02:57 by aysdurma          #+#    #+#              #
-#    Updated: 2026/01/26 02:20:02 by aysdurma         ###   ########.fr        #
+#    Updated: 2026/01/26 11:59:29 by aysdurma         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,6 +51,4 @@ fclean: clean
 
 re: fclean all
 
-bonus: all
-
-.PHONY: all clean fclean re bonus
+.PHONY: all clean fclean re
