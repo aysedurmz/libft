@@ -23,6 +23,7 @@ The project uses a Makefile for compilation. The following commands are availabl
 The following resources were referenced during the development of this project:
 
 * **Man Pages:** consult standard manual pages (e.g., `man malloc`, `man string`) to understand the strict behavior, return values, and parameters of the original libc functions.
+
 **AI Usage:**
 Artificial Intelligence tools were used in this project for the following specific tasks:
 * **Debugging:** Assisting in identifying the cause of segmentation faults and memory leaks (e.g., analyzing `ft_calloc` overflow issues).
@@ -31,8 +32,7 @@ Artificial Intelligence tools were used in this project for the following specif
 
 ### Library Contents
 
-**String** : `ft_strlen`, `ft_strlcpy`, `ft_strlcat`, `ft_strchr`,         `ft_strrchr`, `ft_strnstr`, `ft_strncmp`, `ft_strdup`, `ft_strjoin`, `ft_strtrim`, 
-`ft_split`, `ft_strmapi`, `ft_striteri`
+**String** : `ft_strlen`, `ft_strlcpy`, `ft_strlcat`, `ft_strchr`, `ft_strrchr`, `ft_strnstr`, `ft_strncmp`, `ft_strdup`, `ft_strjoin`, `ft_strtrim`, `ft_split`,`ft_strmapi`, `ft_striteri`
 
 **Memory** : `ft_memset`, `ft_bzero`, `ft_memcpy`, `ft_memmove`, `ft_memchr`, `ft_memcmp`, `ft_calloc`
 
