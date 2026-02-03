@@ -6,7 +6,7 @@
 /*   By: aysdurma <aysdurma@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/12 20:01:28 by aysdurma          #+#    #+#             */
-/*   Updated: 2026/01/12 20:18:18 by aysdurma         ###   ########.fr       */
+/*   Updated: 2026/02/03 15:53:40 by aysdurma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	unsigned char		*d;
 	const unsigned char	*s;
 
-	if (!dest && !src)
-		return (NULL);
 	d = (unsigned char *)dest;
 	s = (const unsigned char *)src;
 	i = 0;
